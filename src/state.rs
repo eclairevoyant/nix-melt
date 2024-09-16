@@ -99,7 +99,7 @@ impl<'a> State<'a> {
         let mut r_state = None;
 
         self.term.draw(|frame| {
-            let rect = frame.size();
+            let rect = frame.area();
             let l_x = rect.x;
             let l_w = rect.width / 4;
             let m_x = l_x + l_w;

@@ -13,33 +13,33 @@ categories = ["command-line-utilities"]
 
 [dependencies]
 color-eyre = "0.6.3"
-crossterm = "0.27.0"
+crossterm = "0.28.1"
 eyre = "0.6.12"
-indexmap = { version = "2.2.6", features = ["serde"] }
-parse-display = "0.9.0"
-rustc-hash = "1.1.0"
+indexmap = { version = "2.5.0", features = ["serde"] }
+parse-display = "0.10.0"
+rustc-hash = "2.0.0"
 serde = { version = "1.0.210", features = ["derive"] }
-serde_json = "1.0.117"
+serde_json = "1.0.128"
 serde_with = "3.9.0"
 thiserror = "1.0.63"
 
 [dependencies.clap]
-version = "4.5.4"
+version = "4.5.17"
 features = ["cargo", "derive", "unicode", "wrap_help"]
 
 [dependencies.ratatui]
-version = "0.26.1"
+version = "0.28.1"
 default-features = false
 features = ["crossterm"]
 
 [dependencies.time]
-version = "0.3.34"
+version = "0.3.36"
 features = ["formatting", "local-offset", "serde"]
 
 [build-dependencies]
-clap = { version = "4.5.4", features = ["derive"] }
-clap_complete = "4.5.1"
-clap_mangen = "0.2.20"
+clap = { version = "4.5.17", features = ["derive"] }
+clap_complete = "4.5.26"
+clap_mangen = "0.2.23"
 
 [profile.release]
 lto = true
