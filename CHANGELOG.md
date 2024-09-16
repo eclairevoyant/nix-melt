@@ -1,8 +1,14 @@
 # Changelog
 
+## v0.1.3
+
+### Fixes
+
+- Fix build with Rust 1.80
+
 ## v0.1.2
 
-### Fxies
+### Fixes
 
 - Make `lastModified` optional ([#1](https://github.com/nix-community/nix-melt/issues/2))
 
